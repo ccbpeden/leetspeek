@@ -11,6 +11,8 @@
                     array_push($outputArray, "3");
                 } elseif ($letter == 'o'){
                     array_push($outputArray, "0");
+                } elseif($letter == 'I'){
+                    array_push($outputArray, "1");
                 } else array_push($outputArray, $letter);
             }
             return $outputArray;

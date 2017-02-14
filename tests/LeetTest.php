@@ -30,5 +30,14 @@
             $result = $test_Leet->stringSplit($input);
             $this->assertEquals(['0'], $result);
         }
+
+        function test_replaceI()
+        {
+            $test_Leet = new Leet;
+            $input = 'I';
+
+            $result = $test_Leet->stringSplit($input);
+            $this->assertEquals(["1"], $result);
+        }
     }
 ?>
