@@ -39,5 +39,23 @@
             $result = $test_Leet->stringSplit($input);
             $this->assertEquals(["1"], $result);
         }
+
+        function test_replaceS()
+        {
+            $test_Leet = new Leet;
+            $input = "ss";
+
+            $result = $test_Leet->stringSplit($input);
+            $this->assertEquals(['s','Z'], $result);
+        }
+
+        function test_string()
+        {
+            $test_Leet = new Leet;
+            $input = ['hello'];
+
+            $result = $test_Leet->stringSplit($input);
+            $this->assertEquals(['h3ll0'], $result);
+        }
     }
 ?>
